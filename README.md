@@ -1,6 +1,6 @@
 # Keex
 
-[![Build Status](https://github.com/dennym/keex/workflows/test-coverage/badge.svg)](https://github.com/dennym/keex/actions)
+[![Build Status](https://github.com/dennym/keex/actions/workflows/test-coverage.yml/badge.svg)](https://github.com/dennym/keex/actions)
 [![Coverage Status](https://coveralls.io/repos/github/dennym/keex/badge.svg?branch=master)](https://coveralls.io/github/dennym/keex?branch=master)
 
 
