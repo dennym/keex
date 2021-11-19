@@ -10,6 +10,8 @@ defmodule Keex.MixProject do
       version: @version,
       elixir: "~> 1.13-rc",
       name: "Keex",
+      test_coverage: [tool: ExCoveralls],
+      preferred_cli_env: [coveralls: :test, "coveralls.detail": :test, "coveralls.post": :test],
       package: package(),
       deps: deps(),
       docs: docs()
