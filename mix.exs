@@ -26,6 +26,7 @@ defmodule Keex.MixProject do
     [
       {:ex_doc, "~> 0.24", only: :dev, runtime: false},
       {:excoveralls, "~> 0.14", only: :test},
+      {:finch, "~> 0.9"},
     ]
   end
 

@@ -1,4 +1,6 @@
 defmodule Keex do
+
+  use Keex.Version
   @moduledoc """
   Documentation for `Keex`.
   """
@@ -14,5 +16,9 @@ defmodule Keex do
   """
   def hello do
     :world
+  end
+
+  def version do
+    @version
   end
 end
